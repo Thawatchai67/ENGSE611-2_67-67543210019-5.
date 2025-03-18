@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="todo-container">
+        <h2>My To-Do List</h2> 
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="เพิ่มรายการ...">
+            <select id="taskType">
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="study">Study</option>
+            </select>
+            <button type="submit" id="add-button">เพิ่ม</button>
+        </div>
+
+        <ul id="taskList">
+            <!-- รายการจะถูกเพิ่มที่นี่ -->
+        </ul>
+    </div>
+</body>
+</html>

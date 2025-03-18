@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Handling</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gallery">
+    <div class="main-image">
+      <img id="mainImage" src="https://picsum.photos/id/11/2500/1667" alt="Main Image">
+    </div>
+    
+    <div class="thumbnails">
+      <img class="thumb" src="https://picsum.photos/id/26/4209/2769" alt="Thumbnail 1" onclick="changeImage(this.src)">
+      <img class="thumb" src="https://picsum.photos/id/29/4000/2670" alt="Thumbnail 2" onclick="changeImage(this.src)">
+      <img class="thumb" src="https://picsum.photos/id/27/3264/1836" alt="Thumbnail 3" onclick="changeImage(this.src)">
+      <img class="thumb" src="https://picsum.photos/id/24/4855/1803" alt="Thumbnail 4" onclick="changeImage(this.src)">
+    </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>
